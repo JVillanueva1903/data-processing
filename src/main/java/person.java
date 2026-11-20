@@ -11,6 +11,10 @@ public class Person {
         this.age = age;
     }
 
+    public Person(String aliceJohnson, int i) {
+
+    }
+
     // Getters
     public String getFirstName() {
         return firstName;
@@ -35,5 +39,26 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getName() {
+        return null;
+    }
+}
+public class person {
+    private String name;
+    private int age;
+
+    public person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 }
